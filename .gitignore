@@ -1,0 +1,51 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*~
+
+# ML models（大文件，不跟踪版本）
+*.pkl
+*.pickle
+
+# 缓存/历史数据（可重新生成）
+*_cache.json
+dce_data_full.json
+daily_reports/
+_archived_corn/
+collab/
+codex-queue/
+
+# 自动生成的运行状态文件
+.data_freshness.json
+.model_baseline.json
+.news_dedup_cache.txt
+.news_impact_db.json
+.signal_decay.json
+.tracker_state.json
+.rolling_retrain.json
+
+# 个人交易状态
+sim_trade_state.json
+.backup_*
+
+# 临时文件
+.DS_Store
+night_session_features.csv
+
+# v6/v7 模型目录（软链到 root 的 pkl）
+v6/models/
+v7/models/
+
+# v6/v7 运行历史（可重新生成）
+v6/history/
+v7/history/
+
+# 环境配置
+.env
+
+# 可重新生成的日报（非 repo 内维护的正式文档）
+daily_report_*.md
+
+# v6 可重新生成的运行数据
+v6/history/

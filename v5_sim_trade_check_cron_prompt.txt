@@ -1,0 +1,5 @@
+【v5 模拟交易待执行信号检查】每个交易日 15:30 运行（给新浪日K留够更新时间）
+
+cd /Users/mashaocong/.openclaw/workspace/corn && python3 sim_trade.py --check-pending
+
+然后，读取 sim_trade.md 并整理状态，直接输出 final reply。
